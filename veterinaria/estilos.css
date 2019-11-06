@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
 }
 body{
   font-family: 'McLaren', cursive;
@@ -14,7 +15,7 @@ header{
     transparent,
     rgba(61, 61, 50, 0.6),
     rgba(197, 199, 185, 0.45)
-    ),url(fondo-principal.jpg);
+    ),url(fondoclinica.jpg);
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
@@ -38,6 +39,7 @@ header{
     );
     height: 70px;
     color: #f2f2f2;
+    z-index: 999;
   }
   .nav2 {
     background: black;
@@ -59,9 +61,10 @@ header{
     height: inherit;
     overflow: hidden;
   }
-  .contenedor-nav #lis{
+  .contenedor-nav #lis a img{
     background: white;
-    border-radius: 20px;
+    color: white;
+    border-radius: 50px;
   }
   nav .enlaces a{
     display: inline-block;
@@ -103,17 +106,20 @@ header{
   font-weight: 300;
   text-shadow:1px 1px black, 2px 2px black, 3px 3px black;
   font-family: 'McLaren', cursive;
-font-family: 'Signika', sans-serif;
-font-family: 'Raleway', sans-serif;
-font-family: 'Bowlby One SC', cursive;
+  font-family: 'Signika', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Bowlby One SC', cursive;
+  font-family: 'Lobster', cursive;
   }
+
   .textos h2{
     font-size: 50px;
     animation: arriba 1s ease-in;
     text-shadow:1px 1px black, 2px 2px black, 3px 3px black;
-    
+    font-family: 'Lobster', cursive;
     }
   .textos a{
+    margin: 70px;
       text-decoration: none;
       border: 1px rgb(41, 41, 43) solid;
       border-radius: 3px;
@@ -123,6 +129,9 @@ font-family: 'Bowlby One SC', cursive;
       font-size: 15px;
       font-weight: 300;
       animation: arriba 1s ease-in;
+  }
+  .textos a:hover{
+    background: black;
   }
   .Urgencias{
     width: 100%;
@@ -183,6 +192,31 @@ font-family: 'Bowlby One SC', cursive;
       padding-top: 40px;
       font-weight: 300;
     }
+    .contenido-sec .contenido1 .centrado p{
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+      padding-top: 18px;
+      text-align: justify;
+      margin-left: 9px;
+      margin-right: 9px;
+      font-size: 16px;
+      color: gray;
+      background: cover;
+    }
+    .contenido-sec .contenido10 .centrado p{
+      width: 100%;
+      height: 100%;
+      padding: 10px;
+      padding-top: 18px;
+      text-align: justify;
+      margin-left: 9px;
+      margin-right: 9px;
+      font-size: 16px;
+      color: gray;
+      background: cover;
+
+    }
     .h1 h2::after{
       content: '';
       display: block;
@@ -193,6 +227,7 @@ font-family: 'Bowlby One SC', cursive;
       background: gray;
       margin-bottom: 33px gray;
     }
+/*conocenos*/
     .contenido-sec {
         width: 100%;
         height: 620px;
@@ -208,6 +243,7 @@ font-family: 'Bowlby One SC', cursive;
       margin: auto;
       text-align: center;
       animation: arriba 1s ease-in;
+      position: none;
     }
     .contenido-sec .contenido10{
       width: 30%;
@@ -221,6 +257,12 @@ font-family: 'Bowlby One SC', cursive;
       animation-delay:  inicio 1s ease-in-out;
 
     }
+    .contenido-sec .contenido1 img{
+      width: 100%;
+    }
+    .contenido-sec .contenido10 img{
+      width: 100%;
+    }
     /*galeria*/
     .galeria {
         width: 90%;
@@ -233,6 +275,7 @@ font-family: 'Bowlby One SC', cursive;
     .cont-galeria{
       display: flex;
       width: 90%;
+
     }
     .cont-galeria .person1{
       display: inline-block;
@@ -248,10 +291,24 @@ font-family: 'Bowlby One SC', cursive;
       justify-content: center;
       width: 30%;
       height: 400px;
+      background: gray;
+    }
+    
+    .cont-galeria .person1 .img-mascota img:hover{
+      -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 10px rgb(71, 54, 54);
+    }
+    .cont-galeria .person1 .img-mascota img:hover {
+      background: rgb(238, 235, 235);
     }
     .cont-galeria .person1 .img-mascota img{
       width: 100%;
       height: 400px;
+      border: 1px solid black;
+      padding: 10px;
+      background: black;
+     
     }
     /*ubicacio*/
     .ubicacion{
@@ -276,11 +333,10 @@ font-family: 'Bowlby One SC', cursive;
       justify-content: space-around;
       margin: auto;
       display: flex;
-      flex-wrap: wrap;
       text-align: center;
     }
      .grupo-contenedor-footer .grup-cont-footer {
-        width: 30%;
+        width: 40%;
         height: 200px;
         display: inline-block;
         justify-content: space-around;
@@ -291,21 +347,23 @@ font-family: 'Bowlby One SC', cursive;
 
     }
     .mayor1{
-      text-align: center;
-      padding: 30px;
-      box-shadow: 0 0 6px 0 black;
-      font-weight: 300;
-      background: linear-gradient(to bottom,
-        transparent,
-        gray,
-        gray
-        ),url(fondo3.jpg);
-        background-attachment: fixed;
+        text-align: center;
+        padding: 30px;
+        box-shadow: 0 0 6px 0 black;
+        font-weight: 300;
+        background: #141E30;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         background: cover;
         background-position: center;
+        background-attachment: fixed;
+        background-size: cover;
+        box-shadow: 0 0 6px 0 black;
+        margin: auto;
     }
     .mayor1 h1{
       font-weight: 500;
+      color: white;
     }
     .mayor1 h1::after{
       content: '';
@@ -314,12 +372,13 @@ font-family: 'Bowlby One SC', cursive;
       margin-top: 3px;
       width: 100px;
       height: 2px;
-      background: black;
+      background: gray;
       margin-bottom: 33px black;
       font-weight: 300;
     }
     .p p{
       padding-block-end: 30px ;
+      color: white;
     }
     /*contactanos*/
      .contenedor1234{
@@ -350,20 +409,32 @@ font-family: 'Bowlby One SC', cursive;
   .conten-form1 .form-grup .cuadro{
     display: block;
     border: gray 1px solid;
-    padding: 10px 120px;
+    width: 100%;
+    height: 35px;
     border-radius: 3px;
     text-align: center;
+  }
+  .conten-form1 .form-grup .cuadro::placeholder{
+    font-family: 'McLaren', cursive;
+    font-family: 'Signika', sans-serif;
+    font-family: 'Raleway', sans-serif;
   }
   .conten-form1 .form-grup .cuadroMensaje{
     display: block;
     border: gray 1px solid;
-    padding: 40px 120px;
     border-radius: 3px;
     text-align: center;
+    width: 406px;
+    height: 90px;
   }
   .conten-form1 .form-grup .espacio{
     padding: 5px;
     justify-content: center;
+
+  }
+  select option{
+    text-align: right;
+    padding-left: 30px;
 
   }
   .conten-form1 .form-grup .espacio-enviar{
@@ -371,15 +442,34 @@ font-family: 'Bowlby One SC', cursive;
     justify-content: right;
   }
   #selectorEdad{
-    padding: 10px 137px;
+    padding: 1px 132px;
     color: gray;
     text-align: center;
     justify-items: center;
+    font-family: 'McLaren', cursive;
+    font-family: 'Signika', sans-serif;
+    font-family: 'Raleway', sans-serif;
+  }
+  #ite{
+    font-family: 'McLaren', cursive;
+    font-family: 'Signika', sans-serif;
+    font-family: 'Raleway', sans-serif;
+  }
+  textarea::placeholder{
+    padding-top: 30px;
+    font-family: 'McLaren', cursive;
+    font-family: 'Signika', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
   }
   #sexo{
-    padding: 10px 126px;
+    padding: 1px 119px;
     color: gray;
     text-align: center;
+    justify-items: center;
+    font-family: 'McLaren', cursive;
+    font-family: 'Signika', sans-serif;
+    font-family: 'Raleway', sans-serif;
   }
   #enviar{
     justify-content: center;
@@ -389,7 +479,13 @@ font-family: 'Bowlby One SC', cursive;
     border-radius: 5px;
     padding: 10px 40px;
     justify-content: center;
+    color: white;
   }
+  #enviar:hover{
+    background: black;
+    color: white;
+  }
+  
   label a{
     text-decoration: none;
     color: black;
@@ -401,7 +497,13 @@ font-family: 'Bowlby One SC', cursive;
       padding: 20px;
   }
   .grupo-textos h2{
+    font-weight: 500;
+    color: white;
+  }
+  .grupo-textos span{
     font-weight: 400;
+    color: white;
+    font-weight: 300;
   }
   .wave .style .svg{
     background: linear-gradient(to bottom,
@@ -409,10 +511,6 @@ font-family: 'Bowlby One SC', cursive;
     gray,
     black
     );
-  }
-  .text-footer .iconos-redes img{
-    width: 10px;
-    height: 10px;
   }
   /*animaciones*/
   @keyframes inicio{
@@ -431,9 +529,321 @@ font-family: 'Bowlby One SC', cursive;
       opacity: 0;
       transform: translateY(100%);
   }
+  40%{
+    opacity: 0;
+    transform: translateY(100%);
+}
   100%{
       opacity: 1;
       transform: translate(0);
   }
 
+}
+@keyframes a{
+  0%{
+      opacity: 0;
+      transform: translateX(100px);
+  }
+  100%{
+      opacity: 1;
+      transform: translate(0);
+  }
+
+}
+/*iconos de redes sociales */
+
+.fab{
+  font-size: 40px;
+  text-align: center;
+  height: 10px;
+}
+.iconosredes {
+  display: flex;
+  text-align: right;
+  padding-top: 17px;
+  padding-right: 10px;
+  text-align: center;
+}
+.iconosredes a{
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.text1 p{
+  text-align: center;
+  padding-top: 10px;
+  color: white;
+  padding-left: 530px ;
+  font-weight: 300;
+}
+.text1 a{
+  text-decoration: none;
+  color: white;
+}
+
+/*footer final*/
+.texfooter{
+  background: linear-gradient(to bottom,
+  rgba(0,0,0),
+  rgb(32, 31, 31),
+  rgb(39, 38, 38)
+  );
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+/*slider*/
+.slide-contenedor{
+  max-width:100%;
+  max-height: 100vh;
+  width: 50%;
+  height:auto;
+  position: relative;
+  overflow: hidden;
+  /* margin: auto; */
+}
+
+/* .miSlider{
+  display: none;
+  transition: 2s;
+  max-height: 100vh;
+} */
+
+.miSlider img{
+  width: 100%;
+  max-height: 100vh;
+  height: inherit;
+  object-fit: cover;
+  vertical-align: top;
+  transition: 2s;
+}
+
+.direcciones{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+}
+
+.direcciones a{
+  color: #fff;
+  display: inline-block;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.direcciones a:hover{
+  background: rgba(0, 0, 0, .5);
+  transition: .5s;
+}
+
+.barras{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom:15px;
+}
+
+.barra{
+  cursor: pointer;
+  height:2px;
+  width: 25px;
+  margin: 0 2px;
+  background: #dcdde1;
+  display: inline-block;
+  margin-left: 3px;
+}
+
+.active{
+  background-color: #e74c3c;
+}
+
+.fade{
+  animation-name: fade;
+  animation-duration: 1.5s;    
+}
+
+@keyframes fade {
+  from {opacity: .4;}
+  to{opacity:1;}
+}
+/*slider*/
+/*
+ul, li{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display:flex;
+  padding: 5px;
+}
+ul.slider{
+  position: relative;
+}
+ul.slider li{
+  opacity: 0;
+  transition: opacity.5s;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin: 50px;
+  padding: 50px;
+  border: 1px solid black;
+  background: black;
+}
+ul.slider li:first-child{
+  opacity: 1;
+}
+ul.slider li:target{
+  opacity: 1;
+}
+#nav-slide{
+  display: inline-block;
+  position: relative;
+  top: 400px;
+  left: 0px;
+  padding: 5px;
+}
+ul, li {
+  box-sizing: border-box;
+}
+ul.slider{
+  padding: 30px;
+}
+ul.slider li{
+  width: 100%;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  opacity: 0;
+  transition: opacity .5s ;
+}
+#nav-slide ul{
+  width: 100%;
+  position: fixed;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+
+}
+#nav-slide ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+#nav-slide ul li{
+  display: flex;
+  flex-grow: 1;
+  flex-wrap: wrap;
+
+}
+#nav-slide a{
+ text-decoration: none;
+ font-weight: bold;
+ color: black;
+ text-align: center;
+ flex-wrap: wrap;
+ position: relative;
+}
+
+#nav-slide a:hover{
+  background-color: #00324b;
+  color: #fff;
+}
+#nav-slide a:active{
+  border-top-color: #f90;
+  background: #f90;
+  color: #00324b;
+}*/
+/*mascotas*/
+ul li img{
+  width: 100%;
+}
+/*hubicacion de contacto*/
+.conten-form12{
+  background: linear-gradient(to bottom,
+  rgba(0,0,0),
+  rgb(32, 31, 31),
+  rgb(39, 38, 38)
+  ),url(ubicacion/ubicacion1.png);
+  
+}
+.conten-form12{
+  padding: 30px;
+  box-shadow: 0 0 6px 0 black;
+  font-weight: 300;
+  background: linear-gradient(to bottom,
+    transparent,
+    black,
+    gray
+    ),url(fondo8.jpg);
+    background-attachment: fixed;
+    background: cover;
+    object-fit: cover;
+    background-position: center;
+    
+}
+.conten-form12 .h2 h2{
+  font-weight: 300;
+  color: white;
+  font-family: 'McLaren', cursive;
+  font-family: 'Signika', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+.conten-form12 .h2 p{
+  font-weight: 300;
+  margin: 0;
+  text-align: left;
+  color: white;
+  font-family: 'McLaren', cursive;
+  font-family: 'Signika', sans-serif;
+  font-family: 'Raleway', sans-serif;
+}
+
+.conten-form12 .h2 p a{
+ color: white;
+ font-size: 10px;
+ text-align: right;
+}
+.conten-form12 .h2  ul{
+  font-size: 20px;
+  color: rgb(252, 249, 249);
+  font-weight: 300;
+ }
+  .h1 h2{
+ font-weight: 300;
+ }
+ #urgencias{
+  padding-top: 30px;
+}
+ #ty{
+   padding-top: 50px;
+ }
+ /*boton subir*/
+ .ir-arriba{
+  display: none;
+  padding: 10px;
+  background: black;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: 1px solid black;
+  border-radius: 60px;
+  margin: none none 30px none;
+}
+.icon-circle-up:before {
+  content: "\1f329";
 }

@@ -1,30 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
     <link rel="stylesheet" href="estilos.css">
     <script src="script.js"></script>
+    <script src="js.js"></script>
     <link href="https://fonts.googleapis.com/css?family=McLaren|Raleway:100,100i,200,200i,300,300i,400,400i,500,700|Signika&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bowlby+One+SC|McLaren|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Signika&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/10780d7f46.js" crossorigin="anonymous"></script>
+    <div> <a href="https://www.flaticon.es/autores/freepik" title="Freepik"></a>  <a href="https://www.flaticon.es/"     title="Flaticon"></a></div>
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alice|Istok+Web:400,400i,700,700i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/efa47fc2f2/UntitledProject/style.css">
+	<script src="http://code.jquery.com/jquery-latest.js"></script>
+	<script src="js.js"></script>
+    <link rel="stylesheet" href="animaciones.css">
     <title>VeterinariaKS</title>
 </head>
 <body>
-
 <!--Encabezado-->
     <header>
        <nav id="nav" class="nav1" >
            <div class="contenedor-nav">
                <div id="lis" class="logo" >
-                   <img src="iconos/png/002-huella.png" alt="">
+                   <a href="index.php"><img src="iconos/png/002-huella.png" alt=""></a>
                </div>
                <div class="enlaces" id="enlaces">
-                    <a href="#" id="enlaces-inicio" class="btn-header">Inicio</a>
-                    <a href="#" id="enlaces-equipo" class="btn-header">Equipo</a>
-                    <a href="#" id="enlaces-servico" class="btn-header">servicos</a>
-                    <a href="#" id="enlaces-trabajo" class="btn-header">Trabajos</a>
-                    <a href="#" id="enlaces-contacto" class="btn-header">Contacto</a>
+                    <a href="index.php" id="enlaces-inicio" class="btn-header">Inicio</a>
+                    <a href=#hola id="enlaces-equipo" class="btn-header">conocenos</a>
+                    <a href=#hola1 id="enlaces-servico" class="btn-header">Horarios</a>
+                    <a href=#hola2 id="enlaces-trabajo" class="btn-header">Galeria</a>
+                    <a href=#hola3 id="enlaces-contacto" class="btn-header">Informacion</a>
+                    <a href=#hola4 id="enlaces-contacto" class="btn-header">ubicacion</a>
+                    <a href=#hola5 id="enlaces-contacto" class="btn-header">Contactanos</a>
                </div>
                <div class="icono" id="open">
                     <span>&#9776;</span>
@@ -34,7 +46,7 @@
        <div class="textos">
             <h1>Veterinaria</h1>
             <h2> Korky y Stich</h2>
-            <a href="#">Contactanos</a>
+            <a href=#hola5>Contactanos</a>
        </div>
        <div class="barra">
            <div class="recuadro">
@@ -44,39 +56,53 @@
    </header>
 <!--cuerpo de la pagina-->
     <main>
+<!--ir arriba-->      
+<span class="ir-arriba icon-circle-up"></span>
 <!--conocenos-->
-        <section>
+<a name=hola></a>
+        <section class="conocenos">
             <div class="h1">
                 <h1>Conocenos</h1>
             </div>
-            <div class="contenido-sec">
+            <div id="animado" class="contenido-sec">
                 <div class="contenido1">
-                    <div class="cont-g">
                         <div class="titulo1">
-                            <img src="img/img3.jpg" alt="">
+                            <img  src="mascotas/mascota1.webp" alt="">
                         </div class="textos-m1">
-                        <div><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></div>
-                    </div>
+                        <div class="h1">
+                            <h2>nosotros!</h2>
+                        </div>
+                        <div class="centrado">
+                            <p>Los precios de cita se te daran mas adelante, amamos ver a tus mascotas felices por eso le brindamos salas para mayor calidad de cuidado, nosotros somos el hospital lider en el cuidado de sus mascotas! </p>
+                        </div>
                 </div>
                 <div class="contenido10">
-                    <div class="cont-g">
                         <div class="titulo1">
-                            <img src="img/img3.jpg" alt="">
+                            <img src="mascotas/mascota2.jpg" alt="">
                         </div class="textos-m1">
-                        <div><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></div>
-                    </div>
+                        <div class="h1">
+                            <h2>Nuestra experiencia</h2>
+                        </div>
+                        <div class="centrado">
+                            <p>Tras varios anos de experiencia somos la institucion lider en el cuidado de sus mascotas.Nuestro Hospital esta trabajando para ustedes las 24Horas del dia.
+                            Nuestra pasion nos ha llevado a darle la mejor calidad, tenemos salas de recreacion para tus mascotas.tenemos salas aprobadas, nuestras instalaciones puedes conocerlas atravez de la ubicacion, tenemos la seguridad que le encantara a tus mascotas! </p>
+                        </div>
                 </div>
                 <div class="contenido1">
-                    <div class="cont-g">
                         <div class="titulo1">
-                            <img src="img/img3.jpg" alt="">
+                            <img src="mascotas/mascota3.jpg" alt="">
                         </div class="textos-m1">
-                        <div><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></div>
-                    </div>
+                        <div class="h1">
+                            <h2>Quienes somos?</h2>
+                        </div>
+                        <div class="centrado">
+                            <p>Somos una institucion que le atribuye la mejor calidad en el cuidado de sus mascotas. Hemos adquirido experiencia gracias a 10anos de experiencia trabajando para especializarnos de la mejor manera para ti y su mascota </p>
+                        </div>
                 </div>
             </div>
         </section>
-<!--informacion-->
+<!--Horarios-->
+<a name=hola1></a>
         <section>
             <div class="mayor1">
             <h1 >Horarios</h1>
@@ -128,11 +154,12 @@
             </div>
         </section>
 <!--Galeria-->
+<a name=hola2></a>
         <section>
             <div class="h1">
                 <h1>Nuestras Mascotas</h1>
             </div>
-            <div class="galeria">
+            <div  id="animadoGaleria"class="galeria">
                 <div class="cont-galeria">
                     <div class="person1">
                         <div class="img-mascota">
@@ -151,7 +178,7 @@
                     </div>
                 </div>
             </div>
-            <div class="galeria">
+            <div id="animadoGaleria2" class="galeria">
                 <div class="cont-galeria">
                     <div class="person1">
                         <div class="img-mascota">
@@ -170,7 +197,7 @@
                     </div>
                 </div>
             </div>
-            <div class="galeria">
+            <div  id="animadoGaleria3" class="galeria">
                 <div class="cont-galeria">
                     <div class="person1">
                         <div class="img-mascota">
@@ -190,37 +217,63 @@
                 </div>
             </div>
 <!--seccion Informacion-->
+<a name=hola3></a>
             <div class="h1">
                 <h1>Informacion</h1>
             </div>
             <div class="contenido-sec">
-                <div class="contenido1">
+                <div id="informacion" class="contenido1">
                     <div class="cont-g">
                         <div class="titulo1">
-                            <img src="img/img3.jpg" alt="">
+                            <img src="ubicacion/ubicacion1.png" alt="">
                         </div class="textos-m1">
-                        <div><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+                        <div class="h1">
+                            <h2>Donde nos encontramos?</h2>
+                        </div>
+                        <div class="centrado">
+                            <p>
+                                Puedes encontrarnos atravez de nuestra hubicacion, en la seccion de la pagina,
+                            
+                            tambien puedes llamarnos a nuestros numeros para obtener informacion o puedes solicitar una ambulancia canina para mayor informacion llamanos.
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="contenido10">
+                <div id="informacion1" class="contenido10">
                     <div class="cont-g">
                         <div class="titulo1">
-                            <img src="img/img3.jpg" alt="">
+                            <img src="instalaciones/ambulancia.jpeg" alt="">
                         </div class="textos-m1">
-                        <div><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></div>
-                    </div>
+                        <div class="h1">
+                            <h2>Ambulancia Canina</h2>
+                        </div>
+                        <div class="centrado">
+                            <p>
+                                pueden pedir una ambulancia canina la cual llegara en cuanto le sea posible, ya que atendemos las 24h puedes llamarnos o contactarnos atravez de nuestro correo en caso contrario que solamente se desea verificar alguna duda o si se tiene alguna consulta favor de llenar el formulario para contactarnos y adquirir mayor informacion.
+                            </p>
+                            <p>
+                            Buscanos atravez de nuestra hubicacion la plataforma Wave tambien nos brinda disponibilidad para que se encuentre nuestras instalaciones.
+                            </p>
+                        </div>
+                        </div>
                 </div>
-                <div class="contenido1">
+                <div  id="informacion2" class="contenido1">
                     <div class="cont-g">
                         <div class="titulo1">
-                            <img src="img/img3.jpg" alt="">
+                            <img src="instalaciones/instalaciones2.jpg" alt="">
                         </div class="textos-m1">
-                        <div><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+                        <div class="h1">
+                            <h2>Instalaciones</h2>
+                        </div>
+                        <div class="centrado">
+                            <p>Puedes visitar nuestras instalaciones, en caso de emergencia solicitar una ambulancia canina seria tu mejor opcion o de cualquier otro modo en el Hospital se le atendera prioritariamente a los caninos que se encuentren en estado critico, lo ideal es que solicite su cita.  </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
 <!--Ubicacion-->
+<a name=hola4></a>
         <section>
             <div class="ubicacion">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61795.29028663241!2d-90.56150159686572!3d14.530226672591214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a7b32deffc89%3A0x2f96cec13bef15de!2sClinica%20Veterinaria%20Pet-kas!5e0!3m2!1ses-419!2sgt!4v1572071263408!5m2!1ses-419!2sgt" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="">
@@ -228,53 +281,86 @@
             </div>
         </section>
 <!--formulario Contactanos-->
+<a name=hola5></a>
         <section>
-            <div class="Contactanos">
-            <div class="contenedor1234">
-                <div class="conten-form1">
-                    <div class="form1">
-                        <form id="form1234" name="miform" method="POST" action="#" onsubmit="return validarDatos()" >
-                        <div class="h1">
-                            <h2>contactanos</h2>
+            <div  class="Contactanos">
+                <div  class="contenedor1234">
+                    <div id="contacto" class="conten-form1">
+                        <div class="form1">
+                            <form id="form1234" name="miform" method="POST" action="basededatos.php" onsubmit="return validarDatos()" >
+                            <div class="h1">
+                                <h2>contactanos</h2>
+                            </div>
+                                <div class="form-grup">
+                                    <div class="espacio">
+                                        <input id="nombre" class="cuadro"  type="text" name="t1" placeholder="Nombre" required>
+                                    </div>
+                                    <div  class="espacio">
+                                        <input id="email"  class="cuadro" type="email" name="t2" placeholder="Email " required>
+                                    </div>
+                                    <div  class="espacio">
+                                        <select id="selectorEdad" class="cuadro" name="t3"  required  >
+                                            <option value="">Selecciona tu edad</option>
+                                        </select> 
+                                    </div>
+                                    <div  class="espacio">
+                                        <select id="sexo" class="cuadro" name="t4" placeholder="seleccione una opcion" required>
+                                                    <option id="ite"value="">Selecciona una opcion</option>
+                                                    <option id="ite" value="mujer">Mujer</option>
+                                                    <option id="ite" value="hombre">Hombre</option>
+                                        </select>
+                                    </div>
+                                    <div  class="espacio">
+                                        <textarea class="cuadroMensaje" name="t5"  id="" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                                    </div>
+                                    <div  class="espacio">
+                                        <input class="checbox" type="checkbox" name="test" id="test" required> <label for="">He leido y acepto las Condiciones y <a href="pyp.php"> politica de privacidad</a></label>
+                                    </div>
+                                    <div  class="espacio-enviar">
+                                        <input id="enviar"  type="submit" name="bt1" values="enviar">
+                                    </div> 
+                                </div>  
+                            </form>
                         </div>
-                            <div class="form-grup">
-                                <div class="espacio">
-                                    <input id="nombre" class="cuadro"  type="text" placeholder="Nombre" required>
-                                </div>
-                                <div  class="espacio">
-                                    <input id="email"  class="cuadro" type="email"  placeholder="Email " required>
-                                </div>
-                                <div  class="espacio">
-                                    <select id="selectorEdad" class="cuadro"  required  >
-                                        <option value="">Selecciona tu edad</option>
-                                    </select> 
-                                </div>
-                                <div  class="espacio">
-                                    <select id="sexo" class="cuadro" required>
-                                                <option value="">Selecciona una opcion</option>
-                                                <option value="mujer">Mujer</option>
-                                                <option value="hombre">Hombre</option>
-                                    </select>
-                                </div>
-                                <div  class="espacio">
-                                    <input class="cuadroMensaje"type="mensaje" placeholder="Mensaje"required> 
-                                </div>
-                                <div  class="espacio">
-                                    <input class="checbox" type="checkbox" name="test" id="test" required> <label for="">He leido y acepto las Condiciones y <a href=""> politica de privacidad</a></label>
-                                </div>
-                                <div  class="espacio-enviar">
-                                    <input id="enviar"  type="submit" name="bt1" values="enviar">
-                                </div> 
-                            </div>  
-                        </form>
                     </div>
-                </div>
-                <div class="conten-form12">
-                    <div class="form1">
-                    </div>
-                    <div>
-                    
-                        <img src="img/img3.jpg" alt="">
+                    <div id="contacto1" class="conten-form12">
+                        <div class="form1">
+                        </div>
+                        <div class="h2">
+                            <h2> Para mas informacion!!</h2>
+                            <br>
+                            <br>
+                            <br>
+                            <p id="primero">Atencion 24H</p>
+                            <p id="urgencias">
+                                <ul>
+                                    <strong>Urgencias--</strong>
+                                </ul>
+                            </p>
+                        <p>Telefono:+502-7700-2345</p>
+                            <p>Telefono:+502-45343423</p>
+                            <p  id="ty">
+                                <ul>
+                                    <strong>Para pedir una cita:</strong>
+                                </ul>
+                            </p>
+                            <p>Telefono:+502-23432345 </p>
+                            <p>Telefono:+502-45678902</p>
+                            <p>Telefono:+502-46789073</p>
+                            <p>PBX:+502-123344567</p>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            
+                            <p>Visitanos en nuestras redes sociales: 
+                                <a href="https://es-la.facebook.com/public/Clinica-Veterinaria-Mascotas"><i class="fab fa-facebook"></i></a> 
+                                <a href="https://www.instagram.com/veterinariauab/?hl=es"><i class="fab fa-instagram"></i></a>
+                                <a href="https://twitter.com/hashtag/veterinarios"><i class="fab fa-twitter"></i></a>
+                            </p>   
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -297,9 +383,9 @@
                             <div class="grup-img-footer">
                                 <img src="iconos/png/m1.png" alt="">
                             </div>
-                            <div class="grupo-textos -footer">
-                                <h2>titulo 1</h2>
-                                <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </span>
+                            <div class="grupo-textos-footer">
+                                <h2>Canes</h2>
+                                <span>Sin importar la raza nos especializamos en el cuidado de cada uno de ellos</span>
                             </div>
                         </div>
                     </div>
@@ -309,8 +395,8 @@
                                 <img src="iconos/png/m2.png" alt="">
                             </div>
                             <div class="grupo-textos-footer">
-                                <h2>titulo 1</h2>
-                                <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </span>
+                                <h2>Urgencias</h2>
+                                <span>  Si se presenta algun inconveniente contactanos atravez de Urgencias</span>
                             </div>
                         </div>
                     </div>
@@ -319,33 +405,41 @@
                             <div class="grup-img-footer">
                                 <img src="iconos/png/m3.png" alt="">
                             </div>
-                            <div class="grupo-textos">
-                                <h2>titulo 1</h2>
-                                <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </span>
+                            <div class="grupo-textos-footer">
+                                <h2>Mascotas</h2>
+                                <span>tips: una buena alimentacion es la clave para el bienestar de tu mascota</span>
                             </div>
                         </div>
                     </div>
                 </div>
         </div>
-        <div class="tex-footer">
-                <div class="iconos-redes">
-                    <img src="iconos/redessociales/png/facebook.png" alt="">
-                </div >
-                <div class="iconos-redes">
-                    <img src="iconos/redessociales/png/twitter.png"  alt="">
-                </div >
-                <div class="iconos-redes">
-                    <img src="iconos/redessociales/png/instagram.png"  alt="">
+        <div class="texfooter">
+            <div class="text">
+                <div class="text1">
+                    <p class="footer">Energizado por Oliver Perez</p>
+                    <p class="footer">Contact information: <a href="mailto:someone@example.com"> operez@bitscomputacion.com</a>   
+                    </p>
                 </div>
+            </div>
+            <div class="ico">
+                <div class="iconosredes">
+                    <a href="https://es-la.facebook.com/public/Clinica-Veterinaria-Mascotas"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/veterinariauab/?hl=es"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/hashtag/veterinarios"><i class="fab fa-twitter"></i></a>
+                </div >
+            </div>
         </div>
     </footer>
+<!--base de datos
+-->
+<?php
+    
+?>
+</body>
 <script >
  opcionesSelector();
 </script>
-
 <script>
  validacioncheck()
 </script>
-
-</body>
 </html>
