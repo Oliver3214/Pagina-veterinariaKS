@@ -43,7 +43,7 @@ function opcionesSelector(params) {
 		let opt = document.createElement("option"); // crear un option
 		opt.value = index;
 		//con el simbolo mas se separan y anidan caracteres
-		opt.innerHTML =  index + "años";
+		opt.innerHTML =  index ;
 		selectorEdad.appendChild(opt);
 		
 	}

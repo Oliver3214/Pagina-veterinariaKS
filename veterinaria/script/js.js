@@ -66,7 +66,7 @@ window.addEventListener('scroll', function() {
    let tamañoDePantalla = window.innerHeight;
 
    if (posicionObj1 < tamañoDePantalla) {
-       animacion.style.animation='arriba 2s ease-out'
+       animacion.style.animation='arriba .7s ease-out'
    }
 });
 //galeria
@@ -77,7 +77,7 @@ window.addEventListener('scroll', function (params) {
     let tamañoDePantalla=window.innerHeight;
 
     if (posicionObj1 < tamañoDePantalla) {
-        animacion.style.animation='arriba 2s ease-out'
+        animacion.style.animation='arriba .7s ease-out'
     }
 });
 window.addEventListener('scroll', function (params) {
@@ -87,7 +87,7 @@ window.addEventListener('scroll', function (params) {
     let tamañoDePantalla=window.innerHeight;
 
     if (posicionObj1 < tamañoDePantalla) {
-        animacion1.style.animation='arriba 3s ease-out'
+        animacion1.style.animation='arriba .7s ease-out'
     }
 });
 window.addEventListener('scroll', function (params) {
@@ -97,7 +97,7 @@ window.addEventListener('scroll', function (params) {
     let tamañoDePantalla=window.innerHeight;
 
     if (posicionObj1 < tamañoDePantalla) {
-        animacion.style.animation='arriba 3s ease-out'
+        animacion.style.animation='arriba .7s ease-out'
     }
 });
 //informacion
@@ -108,7 +108,7 @@ window.addEventListener('scroll', function (params) {
     let tamañoDePantalla=window.innerHeight;
 
     if (posicionObj1 < tamañoDePantalla) {
-        animacion.style.animation='arriba 2s ease-out'
+        animacion.style.animation='arriba .7s ease-out'
     }
 });
 window.addEventListener('scroll', function (params) {
@@ -118,7 +118,7 @@ window.addEventListener('scroll', function (params) {
     let tamañoDePantalla=window.innerHeight;
 
     if (posicionObj1 < tamañoDePantalla) {
-        animacion.style.animation='arriba 2s ease-out'
+        animacion.style.animation='arriba .7s ease-out'
     }
 });
 window.addEventListener('scroll', function (params) {
@@ -128,7 +128,7 @@ window.addEventListener('scroll', function (params) {
     let tamañoDePantalla=window.innerHeight;
 
     if (posicionObj1 < tamañoDePantalla) {
-        animacion.style.animation='arriba 2s ease-out'
+        animacion.style.animation='arriba .7s ease-out'
     }
 });
 //contactanos
@@ -139,9 +139,6 @@ window.addEventListener('scroll', function (params) {
     let tamañoDePantalla=window.innerHeight;
 
     if (posicionObj1 < tamañoDePantalla) {
-        animacion.style.animation='arriba 2s ease-out'
+        animacion.style.animation='arriba .7s ease-out'
     }
 });
-
-//footer
-
