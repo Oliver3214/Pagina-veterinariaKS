@@ -14,11 +14,13 @@
     <div> <a href="https://www.flaticon.es/autores/freepik" title="Freepik"></a>  <a href="https://www.flaticon.es/"     title="Flaticon"></a></div>
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap&subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Alice|Istok+Web:400,400i,700,700i&display=swap&subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
-    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/efa47fc2f2/UntitledProject/style.css">
+
 	<script src="http://code.jquery.com/jquery-latest.js"></script>
-<!--links-->
+<!--scripts-->
     <script src="script/script.js"></script>
-	<script src="script/js.js"></script>
+    <script src="script/js.js"></script>
+    <script src="script/menu.js"></script>
+<!--links-->
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/animaciones.css">
     <title>VeterinariaKS</title>
@@ -33,12 +35,12 @@
                </div>
                <div class="enlaces" id="enlaces">
                     <a href="index.php"  class="btn-header">Inicio</a>
-                    <a href=#conocenos  class="btn-header">conocenos</a>
-                    <a href=#horarios  class="btn-header">Horarios</a>
-                    <a href=#galeria class="btn-header">Galeria</a>
-                    <a href=#informacion class="btn-header">Informacion</a>
-                    <a href=#ubicacion class="btn-header">ubicacion</a>
-                    <a href=#contactanos class="btn-header">Contactanos</a>
+                    <a href="#conocenos"  class="btn-header">Conocenos</a>
+                    <a href="#horarios"  class="btn-header">Horarios</a>
+                    <a href="#galeria" class="btn-header">Galeria</a>
+                    <a href="#informacion" class="btn-header">Informacion</a>
+                    <a href="#ubicacion" class="btn-header">Ubicacion</a>
+                    <a href="#contactanos" class="btn-header">Contactanos</a>
                </div>
                <div class="icono" id="open">
                     <span>&#9776;</span>
@@ -46,6 +48,7 @@
            </div>
        </nav>
        <div class="textos-princi">
+
             <h1>Veterinaria</h1>
             <h2> Korky y Stich</h2>
             <a href=#contactanos>Contactanos</a>
@@ -59,7 +62,7 @@
 <!--cuerpo de la pagina-->
     <main>
 <!--ir arriba-->      
-<span class="ir-arriba icon-circle-up"></span>
+<span class="ir-arriba ">▲</a></span>
 <!--conocenos-->
 <a name=conocenos></a>
         <section class="conocenos">
@@ -72,7 +75,7 @@
                             <img  src="mascotas/mascota1.webp" alt="">
                         </div class="textos-m1">
                         <div class="h1">
-                            <h2>nosotros!</h2>
+                            <h2>Nosotros!</h2>
                         </div>
                         <div class="centrado">
                             <p>Los precios de cita se te daran mas adelante, amamos ver a tus mascotas felices por eso le brindamos salas para mayor calidad de cuidado, nosotros somos el hospital lider en el cuidado de sus mascotas! </p>
@@ -86,8 +89,7 @@
                             <h2>Nuestra experiencia</h2>
                         </div>
                         <div class="centrado">
-                            <p>Tras varios anos de experiencia somos la institucion lider en el cuidado de sus mascotas.Nuestro Hospital esta trabajando para ustedes las 24Horas del dia.
-                            Nuestra pasion nos ha llevado a darle la mejor calidad, tenemos salas de recreacion para tus mascotas.tenemos salas aprobadas, nuestras instalaciones puedes conocerlas atravez de la ubicacion, tenemos la seguridad que le encantara a tus mascotas! </p>
+                            <p>Tras varios anos de experiencia somos la institucion lider en el cuidado de sus mascotas. Nuestro Hospital esta trabajando para ustedes las 24Horas del dia.  Nuestra pasion nos ha llevado a darle la mejor calidad, tenemos salas de recreacion para tus mascotas.tenemos salas aprobadas, nuestras instalaciones puedes conocerlas atravez de la ubicacion, tenemos la seguridad que le encantara a tus mascotas! </p>
                         </div>
                 </div>
                 <div class="contenido1">
@@ -543,11 +545,18 @@
                     </p>
                 </div>
         </div>
+        <div class="textfooter2">
+            <p>
+                <a href="https://es-la.facebook.com/public/Clinica-Veterinaria-Mascotas"><i class="fab fa-facebook"></i></a> 
+                <a href="https://www.instagram.com/veterinariauab/?hl=es"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/hashtag/veterinarios"><i class="fab fa-twitter"></i></a>
+            </p>   
+        </div>
     </footer>
 <!--base de datos-->
 </body>
 <!--funciones script-->
-    <script >
+    <script>
     opcionesSelector();
     </script>
     <script>

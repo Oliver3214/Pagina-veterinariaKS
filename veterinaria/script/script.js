@@ -61,6 +61,5 @@ function validacioncheck() {
 		}
 	}
 }
-//slider//
-//boton subir//
+//menu responsive//
 

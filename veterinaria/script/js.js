@@ -62,7 +62,7 @@ $(document).ready(function(){
 window.addEventListener('scroll', function() {
    let animacion = document.getElementById('animado'); 
    let posicionObj1 = animacion.getBoundingClientRect().top;
-   console.log(posicionObj1);
+
    let tamañoDePantalla = window.innerHeight;
 
    if (posicionObj1 < tamañoDePantalla) {
@@ -73,7 +73,7 @@ window.addEventListener('scroll', function() {
 window.addEventListener('scroll', function (params) {
     let animacion=document.getElementById('animadoGaleria');
     let posicionObj1=animacion.getBoundingClientRect().top;
-    console.log(posicionObj1);
+
     let tamañoDePantalla=window.innerHeight;
 
     if (posicionObj1 < tamañoDePantalla) {
@@ -83,7 +83,7 @@ window.addEventListener('scroll', function (params) {
 window.addEventListener('scroll', function (params) {
     let animacion1=document.getElementById('animadoGaleria2');
     let posicionObj1=animacion1.getBoundingClientRect().top;
-    console.log(posicionObj1);
+
     let tamañoDePantalla=window.innerHeight;
 
     if (posicionObj1 < tamañoDePantalla) {
@@ -93,7 +93,7 @@ window.addEventListener('scroll', function (params) {
 window.addEventListener('scroll', function (params) {
     let animacion=document.getElementById('animadoGaleria3');
     let posicionObj1=animacion.getBoundingClientRect().top;
-    console.log(posicionObj1);
+
     let tamañoDePantalla=window.innerHeight;
 
     if (posicionObj1 < tamañoDePantalla) {
@@ -104,7 +104,7 @@ window.addEventListener('scroll', function (params) {
 window.addEventListener('scroll', function (params) {
     let animacion=document.getElementById('informacion');
     let posicionObj1=animacion.getBoundingClientRect().top;
-    console.log(posicionObj1);
+
     let tamañoDePantalla=window.innerHeight;
 
     if (posicionObj1 < tamañoDePantalla) {
@@ -114,7 +114,7 @@ window.addEventListener('scroll', function (params) {
 window.addEventListener('scroll', function (params) {
     let animacion=document.getElementById('informacion1');
     let posicionObj1=animacion.getBoundingClientRect().top;
-    console.log(posicionObj1);
+
     let tamañoDePantalla=window.innerHeight;
 
     if (posicionObj1 < tamañoDePantalla) {
@@ -124,7 +124,7 @@ window.addEventListener('scroll', function (params) {
 window.addEventListener('scroll', function (params) {
     let animacion=document.getElementById('informacion2');
     let posicionObj1=animacion.getBoundingClientRect().top;
-    console.log(posicionObj1);
+
     let tamañoDePantalla=window.innerHeight;
 
     if (posicionObj1 < tamañoDePantalla) {
@@ -135,7 +135,7 @@ window.addEventListener('scroll', function (params) {
 window.addEventListener('scroll', function (params) {
     let animacion=document.getElementById('contacto');
     let posicionObj1=animacion.getBoundingClientRect().top;
-    console.log(posicionObj1);
+
     let tamañoDePantalla=window.innerHeight;
 
     if (posicionObj1 < tamañoDePantalla) {
